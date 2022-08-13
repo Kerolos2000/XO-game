@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Fredoka One', cursive;
+}
+#main {
+    height: 100vh;
+    background: #393E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 8vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.x {
+    background: #f0f8ff;
+    width: 50vh;
+    height: 50vh;
+    padding: 2px;
+}
+.dash {
+    width: 50vh;
+    background: #f0f8ff;
+    height: 11vh;
+    font-size: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span {
+    padding: 1vh;
+    color: #00adb5;
+}
+.squares {
+    background: #393e46;
+    color: #00ADB5;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+.squares:hover {
+    background: #24272c;
+    cursor: pointer;
+}
